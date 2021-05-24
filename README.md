@@ -1,6 +1,6 @@
 # SJ Buzzer
 
-Small program to query the Playstation buzzers.
+Small program to query the Playstation2 buzzers.
 
 ## Third Party Libraries
 
