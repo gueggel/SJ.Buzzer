@@ -1,0 +1,143 @@
+* text=off
+* whitespace=tab-in-indent,trailing-space,tabwidth=4
+
+*.sln text diff eol=crlf
+*.csproj text diff eol=crlf
+*.dbproj text diff eol=crlf
+*.dtproj text diff eol=crlf
+*.fsproj text diff eol=crlf
+*.lsproj text diff eol=crlf
+*.modelproj text diff eol=crlf
+*.rptproj text diff eol=crlf
+*.sqlproj text diff eol=crlf
+*.vbproj text diff eol=crlf
+*.vcproj text diff eol=crlf
+*.wixproj text diff eol=crlf
+*.wmaproj text diff eol=crlf
+*.xproj text diff eol=crlf
+
+*.props text diff eol=crlf
+*.filters text diff eol=crlf
+*.vcxitems text diff eol=crlf
+
+.editorconfig text diff
+.gitattributes text diff
+.gitconfig text diff
+.gitignore text diff
+.gitmodules text diff
+.mailmap text diff
+.htaccess text diff
+
+*.Master text diff=html
+*.adoc text diff
+*.asax text diff
+*.ascx text diff
+*.aspx text diff=html
+*.bat text diff eol=crlf
+*.bmp binary
+*.browser text diff
+*.c text diff=cpp
+*.cfg text diff
+*.class binary
+*.cmd text diff
+*.cnf text diff
+*.conf text diff
+*.config text diff
+*.cs text diff=csharp
+*.css text diff=css
+*.csv text diff
+*.data binary
+*.database text diff
+*.datasource text diff
+*.disco text diff
+*.dll binary
+*.doc binary diff=astextplain
+*.docx binary diff=astextplain
+*.dot binary diff=astextplain
+*.dotx binary diff=astextplain
+*.dox text diff
+*.dtsx text diff
+*.eps binary
+*.exe binary
+*.fla binary
+*.flv binary
+*.gif binary
+*.graphml text diff
+*.h text diff=cpp
+*.htm text diff=html
+*.html text diff=html
+*.ico binary
+*.ini text diff
+*.jar binary
+*.java text diff=java
+*.jpeg binary
+*.jpg binary
+*.js text diff
+*.jsp text diff
+*.json text diff
+*.markdown text diff
+*.md text diff
+*.mid binary
+*.midi binary
+*.mov binary
+*.mp3 binary
+*.mp4 binary
+*.nupkg binary
+*.ogg binary
+*.one binary
+*.params text diff
+*.pdb binary
+*.pdf binary diff=astextplain
+*.php text diff=php
+*.pl text diff=perl
+*.pm text diff=perl
+*.png binary
+*.pptx binary
+*.properties text diff
+*.ps1 text diff
+*.pubxml text diff
+*.rar binary
+*.rdl text diff
+*.resx text diff
+*.rsd text diff
+*.rtf binary diff=astextplain
+*.ruleset text diff
+*.settings text diff
+*.sh text diff eol=lf
+*.sitemap text diff
+*.skin text diff
+*.snk binary
+*.sql text diff
+*.svcinfo text diff
+*.svcmap text diff
+*.svg text diff
+*.svgz binary
+*.swf binary
+*.tar binary
+*.textile text diff
+*.tif binary
+*.tiff binary
+*.tld text diff
+*.tmpl text diff
+*.tpl text diff
+*.ttf binary
+*.txt text diff
+*.war binary
+*.wsdl text diff
+*.xaml text diff
+*.xhtml text diff=html
+*.xlsx binary
+*.xml text diff
+*.xsc text diff
+*.xsd text diff
+*.xsd text diff
+*.zip binary
+
+Makefile text diff whitespace=-tab-in-indent,trailing-space,tabwidth=4
+makefile text diff whitespace=-tab-in-indent,trailing-space,tabwidth=4
+AUTHORS text diff
+CHANGELOG text diff
+LICENSE text diff
+INSTALL text diff
+README text diff
+TODO text diff

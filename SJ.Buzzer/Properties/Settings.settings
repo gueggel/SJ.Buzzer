@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SJ.App.Buzzer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CountdownMax" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="SoundButtonStopCountdown" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EndCountdownStartBuzzer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TimerRedraw" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="TimerPollBuzzer" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="Player1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #1</Value>
+    </Setting>
+    <Setting Name="Player2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #2</Value>
+    </Setting>
+    <Setting Name="Player3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #3</Value>
+    </Setting>
+    <Setting Name="Player4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #4</Value>
+    </Setting>
+    <Setting Name="Player5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #5</Value>
+    </Setting>
+    <Setting Name="Player6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #6</Value>
+    </Setting>
+    <Setting Name="Player7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #7</Value>
+    </Setting>
+    <Setting Name="Player8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Player #8</Value>
+    </Setting>
+    <Setting Name="ColorButtonBlue" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">DeepSkyBlue</Value>
+    </Setting>
+    <Setting Name="ColorButtonOrange" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">DarkOrange</Value>
+    </Setting>
+    <Setting Name="ColorButtonGreen" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Lime</Value>
+    </Setting>
+    <Setting Name="ColorButtonYellow" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="ColorButtonPressed" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ColorBuzzer" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="ColorBuzzerPressed" Type="System.Drawing.Color" Scope="Application">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="WindowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">800, 600</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

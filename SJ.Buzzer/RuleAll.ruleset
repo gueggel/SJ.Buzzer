@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Regeln für SJ.Buzzer" Description="Codeanalyseregeln für SJ.Buzzer.csproj." ToolsVersion="16.0">
+  <IncludeAll Action="Warning" />
+</RuleSet>
