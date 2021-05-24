@@ -14,6 +14,10 @@ SharpDX - SharpDX is an open-source managed .NET wrapper of the DirectX API.<br/
 ## Beschreibung
 "SJ Buzzer" ist ein kleines Programm zum Abfragen der Playstation2-Buzzer. Somit kann man mit diesem Programm ein eigenes Quiz, z.B. der Große Preis, in gemütlicher Runde veranstalten.
 
+  * Verfügbare Sprachen: Deutsch & Englisch
+  * Unterstütze Buzzers: Playstation2-Buzzer
+  * Anzahl der möglichen Buzzers: 2 Sets
+
 ## Voraussetzungen
   * Betriebssystem: Windows
   * [NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
