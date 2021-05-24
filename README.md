@@ -2,6 +2,8 @@
 
 Small program to query the Playstation2 buzzers.
 
+![SJ Buzzer main window](https://stefanjahn.de/_media/development/sj_buzzer.png)
+
 ## Third Party Libraries
 
 SharpDX - SharpDX is an open-source managed .NET wrapper of the DirectX API.<br/>
