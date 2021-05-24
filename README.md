@@ -1,4 +1,4 @@
-# SJ.Buzzer
+# SJ Buzzer
 
 Small program to query the Playstation buzzers.
 
