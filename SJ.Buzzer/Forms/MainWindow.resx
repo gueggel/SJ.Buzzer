@@ -121,12 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 26</value>
-  </data>
-  <data name="menuQuit.Text" xml:space="preserve">
-    <value>&amp;Quit</value>
-  </data>
   <data name="menuFile.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
   </data>
@@ -135,6 +129,79 @@
   </data>
   <data name="menuFile.Text" xml:space="preserve">
     <value>&amp;File</value>
+  </data>
+  <data name="menuView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="menuView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 25</value>
+  </data>
+  <data name="menuView.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="menuQuery.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="menuQuery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 25</value>
+  </data>
+  <data name="menuQuery.Text" xml:space="preserve">
+    <value>&amp;Query</value>
+  </data>
+  <data name="menuSound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 25</value>
+  </data>
+  <data name="menuSound.Text" xml:space="preserve">
+    <value>S&amp;ound</value>
+  </data>
+  <data name="menuSetup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="menuSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 25</value>
+  </data>
+  <data name="menuSetup.Text" xml:space="preserve">
+    <value>&amp;Setup</value>
+  </data>
+  <data name="menuHelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="menuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="menuHelp.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="msMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="msMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="msMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="msMain.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;msMain.Name" xml:space="preserve">
+    <value>msMain</value>
+  </data>
+  <data name="&gt;&gt;msMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;msMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;msMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="menuQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 26</value>
+  </data>
+  <data name="menuQuit.Text" xml:space="preserve">
+    <value>&amp;Quit</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuFullscreen.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
@@ -145,15 +212,6 @@
   </data>
   <data name="menuFullscreen.Text" xml:space="preserve">
     <value>&amp;Fullscreen on/off</value>
-  </data>
-  <data name="menuView.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="menuView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 25</value>
-  </data>
-  <data name="menuView.Text" xml:space="preserve">
-    <value>&amp;View</value>
   </data>
   <data name="menuQueryBuzzer.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F1</value>
@@ -197,20 +255,11 @@
   <data name="menuQueryTimer.Text" xml:space="preserve">
     <value>&amp;Countdown start/stop</value>
   </data>
-  <data name="menuQuery.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="menuQuery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 25</value>
-  </data>
-  <data name="menuQuery.Text" xml:space="preserve">
-    <value>&amp;Query</value>
-  </data>
   <data name="menuSoundWrongAnswer.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Strg+1</value>
   </data>
   <data name="menuSoundWrongAnswer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundWrongAnswer.Text" xml:space="preserve">
     <value>&amp;Wrong</value>
@@ -219,7 +268,7 @@
     <value>Strg+2</value>
   </data>
   <data name="menuSoundCorrectAnswer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundCorrectAnswer.Text" xml:space="preserve">
     <value>&amp;Correct</value>
@@ -228,7 +277,7 @@
     <value>Strg+3</value>
   </data>
   <data name="menuSoundDaramtic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundDaramtic.Text" xml:space="preserve">
     <value>&amp;Dramatic</value>
@@ -237,7 +286,7 @@
     <value>Strg+4</value>
   </data>
   <data name="menuSoundFanfare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundFanfare.Text" xml:space="preserve">
     <value>Fa&amp;nfare</value>
@@ -246,7 +295,7 @@
     <value>Strg+5</value>
   </data>
   <data name="menuSoundApplause.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundApplause.Text" xml:space="preserve">
     <value>&amp;Applause</value>
@@ -255,40 +304,40 @@
     <value>Strg+6</value>
   </data>
   <data name="menuSoundIntro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundIntro.Text" xml:space="preserve">
     <value>&amp;Intro</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 6</value>
+    <value>219, 6</value>
   </data>
   <data name="menuSoundWrongAnswerRestart.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Strg+7</value>
   </data>
   <data name="menuSoundWrongAnswerRestart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundWrongAnswerRestart.Text" xml:space="preserve">
     <value>Wrong+&amp;Buzzer</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 6</value>
+    <value>219, 6</value>
   </data>
   <data name="menuSoundStop.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F5</value>
   </data>
   <data name="menuSoundStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 24</value>
+    <value>222, 24</value>
   </data>
   <data name="menuSoundStop.Text" xml:space="preserve">
     <value>&amp;Stop</value>
   </data>
-  <data name="menuSound.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 25</value>
+  <data name="menuBuzzer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>413, 26</value>
   </data>
-  <data name="menuSound.Text" xml:space="preserve">
-    <value>S&amp;ound</value>
+  <data name="menuBuzzer1.Text" xml:space="preserve">
+    <value>Buzzer #&amp;1</value>
   </data>
   <data name="menuBuzzer1Sep1.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 6</value>
@@ -299,11 +348,11 @@
   <data name="menuBuzzer1None.Text" xml:space="preserve">
     <value>&amp;None</value>
   </data>
-  <data name="menuBuzzer1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="menuBuzzer2.Size" type="System.Drawing.Size, System.Drawing">
     <value>413, 26</value>
   </data>
-  <data name="menuBuzzer1.Text" xml:space="preserve">
-    <value>Buzzer #&amp;1</value>
+  <data name="menuBuzzer2.Text" xml:space="preserve">
+    <value>Buzzer #&amp;2</value>
   </data>
   <data name="menuBuzzer2Sep1.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 6</value>
@@ -313,12 +362,6 @@
   </data>
   <data name="menuBuzzer2None.Text" xml:space="preserve">
     <value>&amp;None</value>
-  </data>
-  <data name="menuBuzzer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>413, 26</value>
-  </data>
-  <data name="menuBuzzer2.Text" xml:space="preserve">
-    <value>Buzzer #&amp;2</value>
   </data>
   <data name="menuSetupSep1.Size" type="System.Drawing.Size, System.Drawing">
     <value>410, 6</value>
@@ -356,6 +399,12 @@
   <data name="menuSetupSep3.Size" type="System.Drawing.Size, System.Drawing">
     <value>410, 6</value>
   </data>
+  <data name="menuSetupLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>413, 26</value>
+  </data>
+  <data name="menuSetupLanguage.Text" xml:space="preserve">
+    <value>&amp;Language</value>
+  </data>
   <data name="menuLanguageGerman.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 26</value>
   </data>
@@ -368,21 +417,6 @@
   <data name="menuLanguageEnglish.Text" xml:space="preserve">
     <value>&amp;English / Englisch</value>
   </data>
-  <data name="menuSetupLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>413, 26</value>
-  </data>
-  <data name="menuSetupLanguage.Text" xml:space="preserve">
-    <value>&amp;Language</value>
-  </data>
-  <data name="menuSetup.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="menuSetup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 25</value>
-  </data>
-  <data name="menuSetup.Text" xml:space="preserve">
-    <value>&amp;Setup</value>
-  </data>
   <data name="menuInfo.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Strg+F1</value>
   </data>
@@ -391,40 +425,6 @@
   </data>
   <data name="menuInfo.Text" xml:space="preserve">
     <value>&amp;Info</value>
-  </data>
-  <data name="menuHelp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="menuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 25</value>
-  </data>
-  <data name="menuHelp.Text" xml:space="preserve">
-    <value>&amp;Help</value>
-  </data>
-  <data name="msMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="msMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>993, 29</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="msMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="msMain.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;msMain.Name" xml:space="preserve">
-    <value>msMain</value>
-  </data>
-  <data name="&gt;&gt;msMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;msMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;msMain.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="tlMain.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -466,7 +466,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="btnSoundWrongAnswer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 34</value>
+    <value>99, 34</value>
   </data>
   <data name="btnSoundWrongAnswer.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -502,13 +502,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSoundCorrectAnswer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 3</value>
+    <value>108, 3</value>
   </data>
   <data name="btnSoundCorrectAnswer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="btnSoundCorrectAnswer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 34</value>
+    <value>104, 34</value>
   </data>
   <data name="btnSoundCorrectAnswer.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -544,13 +544,13 @@
     <value>NoControl</value>
   </data>
   <data name="buttonSoundDramatic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 3</value>
+    <value>218, 3</value>
   </data>
   <data name="buttonSoundDramatic.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="buttonSoundDramatic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 34</value>
+    <value>116, 34</value>
   </data>
   <data name="buttonSoundDramatic.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -586,13 +586,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSoundFanfare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>352, 3</value>
+    <value>340, 3</value>
   </data>
   <data name="btnSoundFanfare.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="btnSoundFanfare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 34</value>
+    <value>108, 34</value>
   </data>
   <data name="btnSoundFanfare.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -628,13 +628,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSoundApplause.Location" type="System.Drawing.Point, System.Drawing">
-    <value>470, 3</value>
+    <value>454, 3</value>
   </data>
   <data name="btnSoundApplause.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="btnSoundApplause.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 34</value>
+    <value>119, 34</value>
   </data>
   <data name="btnSoundApplause.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -670,13 +670,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSoundIntro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>599, 3</value>
+    <value>579, 3</value>
   </data>
   <data name="btnSoundIntro.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="btnSoundIntro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 34</value>
+    <value>85, 34</value>
   </data>
   <data name="btnSoundIntro.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -712,13 +712,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnSoundWrongAnswerRestart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>694, 3</value>
+    <value>670, 3</value>
   </data>
   <data name="btnSoundWrongAnswerRestart.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="btnSoundWrongAnswerRestart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 34</value>
+    <value>158, 34</value>
   </data>
   <data name="btnSoundWrongAnswerRestart.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -754,7 +754,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnSoundStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>870, 3</value>
+    <value>834, 3</value>
   </data>
   <data name="btnSoundStop.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -790,7 +790,7 @@
     <value>3, 18</value>
   </data>
   <data name="flButtonsSound.Size" type="System.Drawing.Size, System.Drawing">
-    <value>981, 40</value>
+    <value>972, 40</value>
   </data>
   <data name="flButtonsSound.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -817,7 +817,7 @@
     <value>3, 301</value>
   </data>
   <data name="gbSounds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>987, 61</value>
+    <value>978, 61</value>
   </data>
   <data name="gbSounds.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -846,17 +846,737 @@
   <data name="tlBottom.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;gbQuery.Name" xml:space="preserve">
+    <value>gbQuery</value>
+  </data>
+  <data name="&gt;&gt;gbQuery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbQuery.Parent" xml:space="preserve">
+    <value>tlBottom</value>
+  </data>
+  <data name="&gt;&gt;gbQuery.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.Name" xml:space="preserve">
+    <value>gbTimer</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.Parent" xml:space="preserve">
+    <value>tlBottom</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 365</value>
+  </data>
+  <data name="tlBottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlBottom.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 67</value>
+  </data>
+  <data name="tlBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tlBottom.Name" xml:space="preserve">
+    <value>tlBottom</value>
+  </data>
+  <data name="&gt;&gt;tlBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlBottom.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;tlBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlBottom.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gbQuery" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="gbTimer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100,Absolute,67" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lblPlayer1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lblPlayer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblPlayer1.Text" xml:space="preserve">
+    <value>Player #1</value>
+  </data>
+  <data name="lblPlayer1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer1.Name" xml:space="preserve">
+    <value>lblPlayer1</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer1.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPlayer2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 3</value>
+  </data>
+  <data name="lblPlayer2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblPlayer2.Text" xml:space="preserve">
+    <value>Player #2</value>
+  </data>
+  <data name="lblPlayer2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer2.Name" xml:space="preserve">
+    <value>lblPlayer2</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer2.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblPlayer3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 3</value>
+  </data>
+  <data name="lblPlayer3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblPlayer3.Text" xml:space="preserve">
+    <value>Player #3</value>
+  </data>
+  <data name="lblPlayer3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer3.Name" xml:space="preserve">
+    <value>lblPlayer3</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer3.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblPlayer4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 3</value>
+  </data>
+  <data name="lblPlayer4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPlayer4.Text" xml:space="preserve">
+    <value>Player #4</value>
+  </data>
+  <data name="lblPlayer4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer4.Name" xml:space="preserve">
+    <value>lblPlayer4</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer4.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblPlayer5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 3</value>
+  </data>
+  <data name="lblPlayer5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblPlayer5.Text" xml:space="preserve">
+    <value>Player #5</value>
+  </data>
+  <data name="lblPlayer5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer5.Name" xml:space="preserve">
+    <value>lblPlayer5</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer5.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblPlayer6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 3</value>
+  </data>
+  <data name="lblPlayer6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblPlayer6.Text" xml:space="preserve">
+    <value>Player #6</value>
+  </data>
+  <data name="lblPlayer6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer6.Name" xml:space="preserve">
+    <value>lblPlayer6</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer6.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblPlayer7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>741, 3</value>
+  </data>
+  <data name="lblPlayer7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblPlayer7.Text" xml:space="preserve">
+    <value>Player #7</value>
+  </data>
+  <data name="lblPlayer7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer7.Name" xml:space="preserve">
+    <value>lblPlayer7</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer7.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblPlayer8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayer8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPlayer8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayer8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPlayer8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 3</value>
+  </data>
+  <data name="lblPlayer8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="lblPlayer8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblPlayer8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblPlayer8.Text" xml:space="preserve">
+    <value>Player #8</value>
+  </data>
+  <data name="lblPlayer8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer8.Name" xml:space="preserve">
+    <value>lblPlayer8</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer8.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;lblPlayer8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ctrlBuzzer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="ctrlBuzzer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer1.Name" xml:space="preserve">
+    <value>ctrlBuzzer1</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer1.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer1.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ctrlBuzzer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 29</value>
+  </data>
+  <data name="ctrlBuzzer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer2.Name" xml:space="preserve">
+    <value>ctrlBuzzer2</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer2.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer2.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ctrlBuzzer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 29</value>
+  </data>
+  <data name="ctrlBuzzer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer3.Name" xml:space="preserve">
+    <value>ctrlBuzzer3</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer3.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer3.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ctrlBuzzer4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 29</value>
+  </data>
+  <data name="ctrlBuzzer4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer4.Name" xml:space="preserve">
+    <value>ctrlBuzzer4</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer4.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer4.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ctrlBuzzer5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 29</value>
+  </data>
+  <data name="ctrlBuzzer5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer5.Name" xml:space="preserve">
+    <value>ctrlBuzzer5</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer5.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer5.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ctrlBuzzer6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 29</value>
+  </data>
+  <data name="ctrlBuzzer6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer6.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer6.Name" xml:space="preserve">
+    <value>ctrlBuzzer6</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer6.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer6.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ctrlBuzzer7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>741, 29</value>
+  </data>
+  <data name="ctrlBuzzer7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer7.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer7.Name" xml:space="preserve">
+    <value>ctrlBuzzer7</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer7.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer7.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ctrlBuzzer8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ctrlBuzzer8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 29</value>
+  </data>
+  <data name="ctrlBuzzer8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 266</value>
+  </data>
+  <data name="ctrlBuzzer8.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer8.Name" xml:space="preserve">
+    <value>ctrlBuzzer8</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer8.Type" xml:space="preserve">
+    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer8.Parent" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;ctrlBuzzer8.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="tlMain.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 432</value>
+  </data>
+  <data name="tlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tlMain.Name" xml:space="preserve">
+    <value>tlMain</value>
+  </data>
+  <data name="&gt;&gt;tlMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tlMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gbSounds" Row="2" RowSpan="1" Column="0" ColumnSpan="8" /&gt;&lt;Control Name="tlBottom" Row="3" RowSpan="1" Column="0" ColumnSpan="8" /&gt;&lt;Control Name="lblPlayer1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer4" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer5" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer6" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer7" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer8" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer3" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer4" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer5" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer6" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer7" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer8" Row="1" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5" /&gt;&lt;Rows Styles="AutoSize,0,Percent,100,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
   <data name="gbQuery.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="gbQuery.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
+  <data name="&gt;&gt;flButtons.Name" xml:space="preserve">
+    <value>flButtons</value>
+  </data>
+  <data name="&gt;&gt;flButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flButtons.Parent" xml:space="preserve">
+    <value>gbQuery</value>
+  </data>
+  <data name="&gt;&gt;flButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbQuery.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbQuery.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="gbQuery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 3</value>
+  </data>
+  <data name="gbQuery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 61</value>
+  </data>
+  <data name="gbQuery.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbQuery.Text" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="&gt;&gt;gbQuery.Name" xml:space="preserve">
+    <value>gbQuery</value>
+  </data>
+  <data name="&gt;&gt;gbQuery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbQuery.Parent" xml:space="preserve">
+    <value>tlBottom</value>
+  </data>
+  <data name="&gt;&gt;gbQuery.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="flButtons.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="flButtons.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Name" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClear.Parent" xml:space="preserve">
+    <value>flButtons</value>
+  </data>
+  <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnStartSelector.Name" xml:space="preserve">
+    <value>btnStartSelector</value>
+  </data>
+  <data name="&gt;&gt;btnStartSelector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartSelector.Parent" xml:space="preserve">
+    <value>flButtons</value>
+  </data>
+  <data name="&gt;&gt;btnStartSelector.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnStartBuzzer.Name" xml:space="preserve">
+    <value>btnStartBuzzer</value>
+  </data>
+  <data name="&gt;&gt;btnStartBuzzer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartBuzzer.Parent" xml:space="preserve">
+    <value>flButtons</value>
+  </data>
+  <data name="&gt;&gt;btnStartBuzzer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="flButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flButtons.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="flButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="flButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 40</value>
+  </data>
+  <data name="flButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flButtons.Name" xml:space="preserve">
+    <value>flButtons</value>
+  </data>
+  <data name="&gt;&gt;flButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flButtons.Parent" xml:space="preserve">
+    <value>gbQuery</value>
+  </data>
+  <data name="&gt;&gt;flButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnClear.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -871,7 +1591,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 3</value>
+    <value>368, 3</value>
   </data>
   <data name="btnClear.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -913,7 +1633,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnStartSelector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 3</value>
+    <value>240, 3</value>
   </data>
   <data name="btnStartSelector.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -955,7 +1675,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnStartBuzzer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 3</value>
+    <value>118, 3</value>
   </data>
   <data name="btnStartBuzzer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -984,68 +1704,56 @@
   <data name="&gt;&gt;btnStartBuzzer.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="flButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="flButtons.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>RightToLeft</value>
-  </data>
-  <data name="flButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 18</value>
-  </data>
-  <data name="flButtons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>485, 40</value>
-  </data>
-  <data name="flButtons.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;flButtons.Name" xml:space="preserve">
-    <value>flButtons</value>
-  </data>
-  <data name="&gt;&gt;flButtons.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flButtons.Parent" xml:space="preserve">
-    <value>gbQuery</value>
-  </data>
-  <data name="&gt;&gt;flButtons.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="gbQuery.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="gbQuery.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="gbQuery.Location" type="System.Drawing.Point, System.Drawing">
-    <value>499, 3</value>
-  </data>
-  <data name="gbQuery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>491, 61</value>
-  </data>
-  <data name="gbQuery.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="gbQuery.Text" xml:space="preserve">
-    <value>Query</value>
-  </data>
-  <data name="&gt;&gt;gbQuery.Name" xml:space="preserve">
-    <value>gbQuery</value>
-  </data>
-  <data name="&gt;&gt;gbQuery.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbQuery.Parent" xml:space="preserve">
-    <value>tlBottom</value>
-  </data>
-  <data name="&gt;&gt;gbQuery.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="gbTimer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="gbTimer.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.Name" xml:space="preserve">
+    <value>tlTimer</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.Parent" xml:space="preserve">
+    <value>gbTimer</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlTimer.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnTimerStartStop" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblTimer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="barTimer" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,Absolute,40" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="gbTimer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbTimer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="gbTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="gbTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 61</value>
+  </data>
+  <data name="gbTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbTimer.Text" xml:space="preserve">
+    <value>Countdown</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.Name" xml:space="preserve">
+    <value>gbTimer</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.Parent" xml:space="preserve">
+    <value>tlBottom</value>
+  </data>
+  <data name="&gt;&gt;gbTimer.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="tlTimer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1055,6 +1763,75 @@
   </data>
   <data name="tlTimer.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnTimerStartStop.Name" xml:space="preserve">
+    <value>btnTimerStartStop</value>
+  </data>
+  <data name="&gt;&gt;btnTimerStartStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTimerStartStop.Parent" xml:space="preserve">
+    <value>tlTimer</value>
+  </data>
+  <data name="&gt;&gt;btnTimerStartStop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.Name" xml:space="preserve">
+    <value>lblTimer</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.Parent" xml:space="preserve">
+    <value>tlTimer</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;barTimer.Name" xml:space="preserve">
+    <value>barTimer</value>
+  </data>
+  <data name="&gt;&gt;barTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barTimer.Parent" xml:space="preserve">
+    <value>tlTimer</value>
+  </data>
+  <data name="&gt;&gt;barTimer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tlTimer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="tlTimer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tlTimer.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 40</value>
+  </data>
+  <data name="tlTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.Name" xml:space="preserve">
+    <value>tlTimer</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.Parent" xml:space="preserve">
+    <value>gbTimer</value>
+  </data>
+  <data name="&gt;&gt;tlTimer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlTimer.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnTimerStartStop" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblTimer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="barTimer" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,Absolute,40" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="btnTimerStartStop.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1069,7 +1846,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnTimerStartStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 3</value>
+    <value>376, 3</value>
   </data>
   <data name="btnTimerStartStop.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -1147,7 +1924,7 @@
     <value>58, 3</value>
   </data>
   <data name="barTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 34</value>
+    <value>312, 34</value>
   </data>
   <data name="barTimer.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1164,660 +1941,6 @@
   <data name="&gt;&gt;barTimer.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tlTimer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tlTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 18</value>
-  </data>
-  <data name="tlTimer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="tlTimer.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tlTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>484, 40</value>
-  </data>
-  <data name="tlTimer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tlTimer.Name" xml:space="preserve">
-    <value>tlTimer</value>
-  </data>
-  <data name="&gt;&gt;tlTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlTimer.Parent" xml:space="preserve">
-    <value>gbTimer</value>
-  </data>
-  <data name="&gt;&gt;tlTimer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tlTimer.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnTimerStartStop" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblTimer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="barTimer" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,Absolute,40" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="gbTimer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="gbTimer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="gbTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="gbTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>490, 61</value>
-  </data>
-  <data name="gbTimer.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gbTimer.Text" xml:space="preserve">
-    <value>Countdown</value>
-  </data>
-  <data name="&gt;&gt;gbTimer.Name" xml:space="preserve">
-    <value>gbTimer</value>
-  </data>
-  <data name="&gt;&gt;gbTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbTimer.Parent" xml:space="preserve">
-    <value>tlBottom</value>
-  </data>
-  <data name="&gt;&gt;gbTimer.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tlBottom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 365</value>
-  </data>
-  <data name="tlBottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="tlBottom.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tlBottom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>993, 67</value>
-  </data>
-  <data name="tlBottom.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;tlBottom.Name" xml:space="preserve">
-    <value>tlBottom</value>
-  </data>
-  <data name="&gt;&gt;tlBottom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlBottom.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;tlBottom.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tlBottom.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gbQuery" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="gbTimer" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,100,Absolute,67" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="lblPlayer1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="lblPlayer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 20</value>
-  </data>
-  <data name="lblPlayer1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblPlayer1.Text" xml:space="preserve">
-    <value>Player #1</value>
-  </data>
-  <data name="lblPlayer1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer1.Name" xml:space="preserve">
-    <value>lblPlayer1</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer1.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lblPlayer2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 3</value>
-  </data>
-  <data name="lblPlayer2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 20</value>
-  </data>
-  <data name="lblPlayer2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblPlayer2.Text" xml:space="preserve">
-    <value>Player #2</value>
-  </data>
-  <data name="lblPlayer2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer2.Name" xml:space="preserve">
-    <value>lblPlayer2</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer2.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lblPlayer3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>251, 3</value>
-  </data>
-  <data name="lblPlayer3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 20</value>
-  </data>
-  <data name="lblPlayer3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblPlayer3.Text" xml:space="preserve">
-    <value>Player #3</value>
-  </data>
-  <data name="lblPlayer3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer3.Name" xml:space="preserve">
-    <value>lblPlayer3</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer3.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer3.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lblPlayer4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 3</value>
-  </data>
-  <data name="lblPlayer4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 20</value>
-  </data>
-  <data name="lblPlayer4.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblPlayer4.Text" xml:space="preserve">
-    <value>Player #4</value>
-  </data>
-  <data name="lblPlayer4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer4.Name" xml:space="preserve">
-    <value>lblPlayer4</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer4.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer4.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="lblPlayer5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>499, 3</value>
-  </data>
-  <data name="lblPlayer5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 20</value>
-  </data>
-  <data name="lblPlayer5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblPlayer5.Text" xml:space="preserve">
-    <value>Player #5</value>
-  </data>
-  <data name="lblPlayer5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer5.Name" xml:space="preserve">
-    <value>lblPlayer5</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer5.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer5.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lblPlayer6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 3</value>
-  </data>
-  <data name="lblPlayer6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 20</value>
-  </data>
-  <data name="lblPlayer6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblPlayer6.Text" xml:space="preserve">
-    <value>Player #6</value>
-  </data>
-  <data name="lblPlayer6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer6.Name" xml:space="preserve">
-    <value>lblPlayer6</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer6.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer6.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="lblPlayer7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>747, 3</value>
-  </data>
-  <data name="lblPlayer7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 20</value>
-  </data>
-  <data name="lblPlayer7.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblPlayer7.Text" xml:space="preserve">
-    <value>Player #7</value>
-  </data>
-  <data name="lblPlayer7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer7.Name" xml:space="preserve">
-    <value>lblPlayer7</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer7.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer7.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="lblPlayer8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPlayer8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblPlayer8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblPlayer8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblPlayer8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>871, 3</value>
-  </data>
-  <data name="lblPlayer8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="lblPlayer8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 20</value>
-  </data>
-  <data name="lblPlayer8.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lblPlayer8.Text" xml:space="preserve">
-    <value>Player #8</value>
-  </data>
-  <data name="lblPlayer8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer8.Name" xml:space="preserve">
-    <value>lblPlayer8</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer8.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;lblPlayer8.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="ctrlBuzzer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 29</value>
-  </data>
-  <data name="ctrlBuzzer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 266</value>
-  </data>
-  <data name="ctrlBuzzer1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer1.Name" xml:space="preserve">
-    <value>ctrlBuzzer1</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer1.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer1.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer1.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="ctrlBuzzer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 29</value>
-  </data>
-  <data name="ctrlBuzzer2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 266</value>
-  </data>
-  <data name="ctrlBuzzer2.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer2.Name" xml:space="preserve">
-    <value>ctrlBuzzer2</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer2.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer2.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer2.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="ctrlBuzzer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>251, 29</value>
-  </data>
-  <data name="ctrlBuzzer3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 266</value>
-  </data>
-  <data name="ctrlBuzzer3.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer3.Name" xml:space="preserve">
-    <value>ctrlBuzzer3</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer3.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer3.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer3.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="ctrlBuzzer4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 29</value>
-  </data>
-  <data name="ctrlBuzzer4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 266</value>
-  </data>
-  <data name="ctrlBuzzer4.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer4.Name" xml:space="preserve">
-    <value>ctrlBuzzer4</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer4.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer4.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer4.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="ctrlBuzzer5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>499, 29</value>
-  </data>
-  <data name="ctrlBuzzer5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 266</value>
-  </data>
-  <data name="ctrlBuzzer5.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer5.Name" xml:space="preserve">
-    <value>ctrlBuzzer5</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer5.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer5.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer5.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="ctrlBuzzer6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 29</value>
-  </data>
-  <data name="ctrlBuzzer6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 266</value>
-  </data>
-  <data name="ctrlBuzzer6.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer6.Name" xml:space="preserve">
-    <value>ctrlBuzzer6</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer6.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer6.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer6.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="ctrlBuzzer7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>747, 29</value>
-  </data>
-  <data name="ctrlBuzzer7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 266</value>
-  </data>
-  <data name="ctrlBuzzer7.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer7.Name" xml:space="preserve">
-    <value>ctrlBuzzer7</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer7.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer7.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer7.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="ctrlBuzzer8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ctrlBuzzer8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>871, 29</value>
-  </data>
-  <data name="ctrlBuzzer8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 266</value>
-  </data>
-  <data name="ctrlBuzzer8.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer8.Name" xml:space="preserve">
-    <value>ctrlBuzzer8</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer8.Type" xml:space="preserve">
-    <value>SJ.App.Buzzer.Controls.BuzzerUI, SJ.Buzzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer8.Parent" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;ctrlBuzzer8.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="tlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tlMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 29</value>
-  </data>
-  <data name="tlMain.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tlMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>993, 432</value>
-  </data>
-  <data name="tlMain.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tlMain.Name" xml:space="preserve">
-    <value>tlMain</value>
-  </data>
-  <data name="&gt;&gt;tlMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tlMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tlMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tlMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="gbSounds" Row="2" RowSpan="1" Column="0" ColumnSpan="8" /&gt;&lt;Control Name="tlBottom" Row="3" RowSpan="1" Column="0" ColumnSpan="8" /&gt;&lt;Control Name="lblPlayer1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer4" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer5" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer6" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer7" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="lblPlayer8" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer3" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer4" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer5" Row="1" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer6" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer7" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="ctrlBuzzer8" Row="1" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5,Percent,12,5" /&gt;&lt;Rows Styles="AutoSize,0,Percent,100,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1825,7 +1948,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>993, 461</value>
+    <value>984, 461</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
