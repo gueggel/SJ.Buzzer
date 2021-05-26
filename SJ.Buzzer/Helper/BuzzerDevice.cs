@@ -504,7 +504,6 @@ namespace SJ.App.Buzzer.Helper
                         {
                             //Kein Spielmodus, alle Button aller Buzzer koennen beliebig gedrueckt werden
                             case QueryButtonsType.None:
-                                //
                                 State[currentNumber].Button[currentButton] = true;
                                 break;
 

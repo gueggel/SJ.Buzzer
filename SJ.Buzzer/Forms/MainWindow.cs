@@ -10,7 +10,7 @@
  * @link       https://stefanjahn.de
  *
  * @date       20.04.2012 21:58
- * @version    20210524
+ * @version    20210526
  * @license    http://www.gnu.org/copyleft/gpl.html
  * ------------------------------------------------------------------------
  * This program is free software: you can redistribute it and/or modify
@@ -70,7 +70,7 @@ namespace SJ.App.Buzzer
             set
             {
                 _AudioDevice = value;
-                MasterVoice = new MasteringVoice(value);
+                MasterVoice = new MasteringVoice( value );
             }
         }
 
@@ -465,7 +465,7 @@ namespace SJ.App.Buzzer
                 if( key != Soundfile.TickTack )
                 {
                     ListSounds[key].Stop();
-                }                
+                }
             }
         }
 
@@ -734,7 +734,7 @@ namespace SJ.App.Buzzer
         /// <param name="menuNone">Menueeintrag "Keine Auswahl"</param>
         /// <param name="menuSetupBuzzer">Dropdownmenue fuer die Auswahl des Buzzers</param>
         /// <param name="device">Device</param>
-        private void ListAllControllers( ToolStripSeparator menuSeparator, ToolStripMenuItem menuNone, ToolStripMenuItem menuSetupBuzzer, BuzzerDevice device )
+        private void ListAllControllers( ToolStripSeparator menuSeparator, ToolStripMenuItem menuNone, ToolStripMenuItem menuSetupBuzzer, BuzzerDevice device, BuzzerDevice otherDevice )
         {
             menuSetupBuzzer.DropDownItems.Clear();
 
@@ -745,6 +745,7 @@ namespace SJ.App.Buzzer
                 {
                     Checked = (device.SelectedController == instanceGuid),
                     CheckOnClick = false,
+                    Enabled = otherDevice.SelectedController != instanceGuid,
                     Tag = instanceGuid // Instance GUID des Controllers im Menue-Eintrag speichern
                 };
 
@@ -772,7 +773,7 @@ namespace SJ.App.Buzzer
         /// <param name="selectedMenuItem">Menueeintrag des Device</param>
         /// <param name="menuNone">Menueeintrag "Keine Auswahl"</param>
         /// <param name="device">Device</param>
-        private void SetupBuzzerDevice( object selectedMenuItem, ToolStripMenuItem menuNone, BuzzerDevice device )
+        private void SetupBuzzerDevice( object selectedMenuItem, ToolStripMenuItem menuNone, BuzzerDevice device, ToolStripMenuItem menuSetupOtherBuzzer )
         {
             ToolStripMenuItem menu = selectedMenuItem as ToolStripMenuItem;
 
@@ -783,6 +784,7 @@ namespace SJ.App.Buzzer
             }
             else
             {
+                //Device auswaehlen
                 device.SelectedController = (Guid)menu.Tag; //Menu-Eintrag enthaelt die Instance GUID des Controllers.
                 menu.Checked = true;
                 menuNone.Checked = false;
@@ -1274,25 +1276,25 @@ namespace SJ.App.Buzzer
         /// <summary>
         /// Menu: Verfuegbare Buzzer #1 anzeigen.
         /// </summary>
-        private void MenuBuzzer1_DropDownOpening( object sender, EventArgs e ) => ListAllControllers( menuBuzzer1Sep1, menuBuzzer1None, menuBuzzer1, BuzzerDevice1 );
+        private void MenuBuzzer1_DropDownOpening( object sender, EventArgs e ) => ListAllControllers( menuBuzzer1Sep1, menuBuzzer1None, menuBuzzer1, BuzzerDevice1, BuzzerDevice2 );
 
 
         /// <summary>
         /// Menu: Verfuegbare Buzzer #2 anzeigen.
         /// </summary>
-        private void MenuBuzzer2_DropDownOpening( object sender, EventArgs e ) => ListAllControllers( menuBuzzer2Sep1, menuBuzzer2None, menuBuzzer2, BuzzerDevice2 );
+        private void MenuBuzzer2_DropDownOpening( object sender, EventArgs e ) => ListAllControllers( menuBuzzer2Sep1, menuBuzzer2None, menuBuzzer2, BuzzerDevice2, BuzzerDevice1 );
 
 
         /// <summary>
         /// Menu: Setup Buzzer #1
         /// </summary>
-        private void MenuBuzzer1Setup_Click( object sender, EventArgs e ) => SetupBuzzerDevice( sender, menuBuzzer1None, BuzzerDevice1 );
+        private void MenuBuzzer1Setup_Click( object sender, EventArgs e ) => SetupBuzzerDevice( sender, menuBuzzer1None, BuzzerDevice1, menuBuzzer2 );
 
 
         /// <summary>
         /// Menu: Setup Buzzer #2
         /// </summary>
-        private void MenuBuzzer2Setup_Click( object sender, EventArgs e ) => SetupBuzzerDevice( sender, menuBuzzer2None, BuzzerDevice2 );
+        private void MenuBuzzer2Setup_Click( object sender, EventArgs e ) => SetupBuzzerDevice( sender, menuBuzzer2None, BuzzerDevice2, menuBuzzer1 );
 
 
         /// <summary>
