@@ -186,23 +186,17 @@ namespace SJ.App.Buzzer.Helper
         /// <summary>
         /// Sound 1mal abspielen.
         /// </summary>
-        public void Play()
-        {
-            Play( 0 );
-        }
+        public void Play() => Play( 0 );
 
         /// <summary>
         /// Sound in Endlosschleife abspielen.
         /// </summary>
-        public void PlayLoop()
-        {
-            Play( AudioBuffer.LoopInfinite );
-        }
+        public void PlayLoop() => Play( AudioBuffer.LoopInfinite );
 
         /// <summary>
         /// Sound abspielen.
         /// </summary>
-        private void Play(int loopCount)
+        private void Play( int loopCount )
         {
             if( IsPlaying )
             {
