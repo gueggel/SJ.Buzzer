@@ -10,7 +10,7 @@
  * @link       https://stefanjahn.de
  *
  * @date       20.04.2012 21:58
- * @version    20210520
+ * @version    20210528
  * @license    http://www.gnu.org/copyleft/gpl.html
  * ------------------------------------------------------------------------
  * This program is free software: you can redistribute it and/or modify
@@ -30,6 +30,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 using SharpDX.DirectInput;
 
@@ -120,6 +121,8 @@ namespace SJ.App.Buzzer.Helper
         /// GUID des gewaehlten Controllers.
         /// </summary>
         private Guid _SelectedController;
+
+        private int _CountButtons;
 
         #endregion
 
@@ -220,16 +223,6 @@ namespace SJ.App.Buzzer.Helper
 
 
         /// <summary>
-        /// True = Abfrage Rueckwaerts durchfuehren.
-        /// </summary>
-        private bool PollReverse
-        {
-            get;
-            set;
-        }
-
-
-        /// <summary>
         /// Device fuer den Zugriff auf den Buzzer-Controller (der alle 4 Buzzer beinhaltet).
         /// </summary>
         private Joystick Controller
@@ -271,14 +264,31 @@ namespace SJ.App.Buzzer.Helper
             }
         }
 
+        /// <summary>
+        /// Auflistung aller verfuegbaren Buttonnummern.
+        /// </summary>
+        private List<int> ListOrderButtons
+        {
+            get;
+            set;
+        }
 
         /// <summary>
         /// Anzahl der Buttons auf dem Buzzer.
         /// </summary>
         public int CountButtons
         {
-            get;
-            private set;
+            get => _CountButtons;
+            private set
+            {
+                _CountButtons = value;
+                ListOrderButtons = new List<int>( value );
+
+                for( int i = 0; i < value; i++ )
+                {
+                    ListOrderButtons.Add( i );
+                }
+            }
         }
 
 
@@ -324,7 +334,6 @@ namespace SJ.App.Buzzer.Helper
         {
             DInput = new DirectInput();
             QueryBuzzer = QueryBuzzerType.None;
-            PollReverse = false;
             CountButtons = 0;
 
             QueryButtons = new Dictionary<BuzzerNumber, QueryButtonsType>();
@@ -465,37 +474,29 @@ namespace SJ.App.Buzzer.Helper
             //Status abfragen
             JoystickState state = Controller.GetCurrentState();
             bool[] buttons = state.Buttons;
-
             bool buttonFound = false;
-            int count = 0;
-            int step = 1;
 
-            if( PollReverse )
-            {
-                count = CountButtons - 1;
-                step = -1;
-            }
-
-            PollReverse = !PollReverse;
+            //Reihenfolge der Button-Nummern mischen
+            Random rnd = new Random(Environment.TickCount);
+            List<int> randomList = ListOrderButtons.OrderBy(item=>rnd.Next()).ToList();
 
             //Alle Buttons aller Buzzer durchgehen
-            for( int i = 0; i < CountButtons; i++ )
+            foreach( int buttonNumber in randomList )
             {
                 //Nummer des aktuellen Buzzer bestimmen (1...4)
-                BuzzerNumber currentNumber = GetBuzzerNumber(count);
+                BuzzerNumber currentNumber = GetBuzzerNumber(buttonNumber);
 
                 //Typ des aktuellen Buttons bestimmen (Buzzer, Blau, Orange, Gruen, Gelb)
-                BuzzerButton currentButton = GetBuzzerButton(count);
+                BuzzerButton currentButton = GetBuzzerButton(buttonNumber);
 
                 //Falls kein Buzzer/Button gefunden wurde, oder der Button schon gedruueckt ist, so weiter mit dem naechsten Button
                 if( currentButton == BuzzerButton.None || currentNumber == BuzzerNumber.None || QueryButtons[currentNumber] == QueryButtonsType.IsPressed )
                 {
-                    count += step;
                     continue;
                 }
 
                 //Pruefen ob Button gedrueckt worden ist
-                if( buttons[count] == true )
+                if( buttons[buttonNumber] == true )
                 {
                     //Wurde nur Auswahlbutton gedrueckt
                     if( currentButton != BuzzerButton.Buzzer )
@@ -535,13 +536,13 @@ namespace SJ.App.Buzzer.Helper
                             QueryBuzzer = QueryBuzzerType.IsPressed;
 
                             //Signal: Button gedrueckt
-                            RaiseEvent( count, true, true, false );
+                            RaiseEvent( buttonNumber, true, true, false );
                             return;
                         }
                         else
                         {
                             //Signal: Button gedrueckt
-                            RaiseEvent( count, true, false, buttonFound );
+                            RaiseEvent( buttonNumber, true, false, buttonFound );
                         }
                     }
                 }
@@ -557,11 +558,9 @@ namespace SJ.App.Buzzer.Helper
                         PreviousState[currentNumber].Button[currentButton] = false;
 
                         //Signal: Button losgelassen
-                        RaiseEvent( count, false, false, false );
+                        RaiseEvent( buttonNumber, false, false, false );
                     }
                 }
-
-                count += step;
             }
         }
 
