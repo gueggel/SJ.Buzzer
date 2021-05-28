@@ -10,7 +10,7 @@
  * @link       https://stefanjahn.de
  *
  * @date       21.05.2021
- * @version    20210524
+ * @version    20210528
  * @license    http://www.gnu.org/copyleft/gpl.html
  * ------------------------------------------------------------------------
  * This program is free software: you can redistribute it and/or modify
@@ -41,6 +41,16 @@ namespace SJ.App.Buzzer.Controls
     /// </summary>
     public partial class BuzzerUI : UserControl
     {
+        #region Delegates
+
+        /// <summary>
+        /// Aufruf von Methoden aus einem anderem Thread heraus.
+        /// </summary>
+        private delegate void CallMethodDelegate();
+
+        #endregion
+
+
         #region Attribute
 
         /// <summary>
@@ -240,16 +250,31 @@ namespace SJ.App.Buzzer.Controls
             }
         }
 
+
+
         /// <summary>
-        /// Buzzerknopf ein-/ausscahlten.
+        /// Buzzerknopf ein-/ausschalten.
         /// </summary>
         /// <param name="pressed">True = Gedrueckt</param>
         public void SetBuzzer( bool pressed )
         {
             BuzzerPressed = pressed;
             DrawBuzzer( pnlBuzzer.CreateGraphics() );
-            pnlBuzzer.Refresh();
+
+            if( pnlBuzzer.InvokeRequired )
+            {
+                Invoke( new CallMethodDelegate( PollBuzzer ) );
+            }
+            else
+            {
+                pnlBuzzer.Refresh();
+            }
         }
+
+        /// <summary>
+        /// Grafik Buzzerknopf aktualisieren.
+        /// </summary>
+        private void PollBuzzer() => pnlBuzzer.Refresh();
 
         /// <summary>
         /// Button-Objekt abfragen.

@@ -32,6 +32,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using SharpDX.XAudio2;
@@ -63,10 +64,7 @@ namespace SJ.App.Buzzer
         /// </summary>
         private XAudio2 AudioDevice
         {
-            get
-            {
-                return _AudioDevice;
-            }
+            get => _AudioDevice;
             set
             {
                 _AudioDevice = value;
@@ -123,16 +121,6 @@ namespace SJ.App.Buzzer
             get;
             set;
         }
-
-        /// <summary>
-        /// True = Buzzer in verkehrter Reihenfolge abfragen.
-        /// </summary>
-        private bool PollReverse
-        {
-            get;
-            set;
-        }
-
 
         /// <summary>
         /// Timer fuer die Abfrage des Buzzers.
@@ -238,8 +226,6 @@ namespace SJ.App.Buzzer
                 BuzzerNumber.Four
             };
 
-
-            PollReverse = false;
             LastWindowState = WindowState;
             SetLanguage = string.Empty;
 
@@ -1127,6 +1113,16 @@ namespace SJ.App.Buzzer
         /// <param name="buttonFound">True = Erster Button eines Buzzers wurde gedrueckt</param>
         private void Buzzer1_DrawButton( object sender, BuzzerNumber buzzerNumber, BuzzerButton buzzerButton, bool isPressed, bool buzzerFound, bool buttonFound )
         {
+            if( buzzerFound )
+            {
+                ListSounds[Soundfile.BuzzerPressed].Play();
+            }
+
+            if( buttonFound )
+            {
+                ListSounds[Soundfile.ButtonClick].Play();
+            }
+
             if( buzzerButton == BuzzerButton.Buzzer )
             {
                 ListBuzzer1UI[buzzerNumber].SetBuzzer( isPressed );
@@ -1136,7 +1132,6 @@ namespace SJ.App.Buzzer
                 ListBuzzer1UI[buzzerNumber].SetButton( buzzerButton, isPressed );
             }
         }
-
 
         /// <summary>
         /// Button auf dem Buzzer #2 zeichnen.
@@ -1149,6 +1144,16 @@ namespace SJ.App.Buzzer
         /// <param name="buttonFound">True = Erster Button eines Buzzers wurde gedrueckt</param>
         private void Buzzer2_DrawButton( object sender, BuzzerNumber buzzerNumber, BuzzerButton buzzerButton, bool isPressed, bool buzzerFound, bool buttonFound )
         {
+            if( buzzerFound )
+            {
+                ListSounds[Soundfile.BuzzerPressed].Play();
+            }
+
+            if( buttonFound )
+            {
+                ListSounds[Soundfile.ButtonClick].Play();
+            }
+
             if( buzzerButton == BuzzerButton.Buzzer )
             {
                 ListBuzzer2UI[buzzerNumber].SetBuzzer( isPressed );
@@ -1175,21 +1180,10 @@ namespace SJ.App.Buzzer
         /// <summary>
         /// Buzzer abfragen.
         /// </summary>
-        private void PollBuzzer_Tick( object sender, EventArgs e )
-        {
-            if( PollReverse )
-            {
-                BuzzerDevice2.Poll();
-                BuzzerDevice1.Poll();
-            }
-            else
-            {
-                BuzzerDevice1.Poll();
-                BuzzerDevice2.Poll();
-            }
-
-            PollReverse = !PollReverse;
-        }
+        private void PollBuzzer_Tick( object sender, EventArgs e ) => Parallel.Invoke(
+                () => BuzzerDevice1.Poll(),
+                () => BuzzerDevice2.Poll()
+                );
 
 
         /// <summary>
