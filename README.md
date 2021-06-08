@@ -2,7 +2,7 @@
 
 Small program to query the Playstation2 buzzers.
 
-![SJ Buzzer main window](https://stefanjahn.de/_media/development/sj_buzzer.png)
+![SJ Buzzer main window](http://stefanjahn.de/_media/development/sj_buzzer.png)
 
 ## Third Party Libraries
 
