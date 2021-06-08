@@ -2,7 +2,7 @@
 
 Small program to query the Playstation2 buzzers.
 
-![SJ Buzzer main window](http://stefanjahn.de/_media/development/sj_buzzer.png)
+![SJ Buzzer main window](https://stefanjahn.de/_media/development/sj_buzzer.png)
 
 ## Third Party Libraries
 
@@ -41,3 +41,4 @@ Sollte alles funktioniert haben, so findet man den Buzzer als Gamecontroller im 
   * **20.04.2012:** Start der Programmierung
   * **24.05.2021:** Entfernung von DirectX. Ersetzt durch [SharpDX](http://sharpdx.org).
   * **25.05.2021:** Upload auf GitHub.
+  + **08.06.2021:** Bugfix - Tastenkürzel in den Ressource-Dateien sind sprachabhängig. Dies führt dazu das der Sourcecode nicht mehr im Visual Studio mit einer anderen Spracheinstellung compiliert werden kann. Betroffene Tastenkürzel (Strg) aus Resource-Datei entfernt und Einstellung im Sourcecode vorgenommen.
