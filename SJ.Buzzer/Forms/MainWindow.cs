@@ -10,7 +10,7 @@
  * @link       https://stefanjahn.de
  *
  * @date       20.04.2012 21:58
- * @version    20210526
+ * @version    20210608
  * @license    http://www.gnu.org/copyleft/gpl.html
  * ------------------------------------------------------------------------
  * This program is free software: you can redistribute it and/or modify
@@ -234,6 +234,7 @@ namespace SJ.App.Buzzer
             InitializeBuzzerDevice2();
             InitializeBuzzerTimer();
             InitializeMenu();
+            InitializeMenuKeys();
             InitializePlayerNames();
             InitializeCountdown();
             HideShowBuzzer();
@@ -310,6 +311,26 @@ namespace SJ.App.Buzzer
             catch
             {
             }
+        }
+
+        /// <summary>
+        /// Menue einstellen: Tastenkuerzel den Sound-Funktionen zuweisen.
+        /// </summary>
+        /// <remarks>
+        /// Workaround, die Zuweisung uber normalen Wege (Forms-Designer) funktioniert nicht, da
+        /// die Tastenkuerzel sprachabhaengig in der Resource-Datei abgespeichert werden. Dies fuerhrt dazu
+        /// das das Projekt dann nicht in einem anderem Visual Studio mit andere Spracheinstellung compiliert
+        /// werden kann.
+        /// </remarks>
+        private void InitializeMenuKeys()
+        {
+            menuSoundWrongAnswer.ShortcutKeys = Keys.Control | Keys.D1;
+            menuSoundCorrectAnswer.ShortcutKeys = Keys.Control | Keys.D2;
+            menuSoundDaramtic.ShortcutKeys = Keys.Control | Keys.D3;
+            menuSoundFanfare.ShortcutKeys = Keys.Control | Keys.D4;
+            menuSoundApplause.ShortcutKeys = Keys.Control | Keys.D5;
+            menuSoundIntro.ShortcutKeys = Keys.Control | Keys.D6;
+            menuSoundWrongAnswerRestart.ShortcutKeys = Keys.Control | Keys.D7;
         }
 
         /// <summary>
