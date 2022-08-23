@@ -10,7 +10,7 @@
  * @link       https://stefanjahn.de
  *
  * @date       20.04.2012 21:58
- * @version    20210528
+ * @version    20220823
  * @license    http://www.gnu.org/copyleft/gpl.html
  * ------------------------------------------------------------------------
  * This program is free software: you can redistribute it and/or modify
@@ -459,11 +459,11 @@ namespace SJ.App.Buzzer.Helper
                 return;
             }
 
-            //Beenden falls ein Auswahlbutton eines Buzzers schon gedrueckt worden ist
+            //Beenden falls die Auswahlbuttons der Buzzers schon gedrueckt worden ist
             if( QueryButtons[BuzzerNumber.One] == QueryButtonsType.IsPressed
-                 || QueryButtons[BuzzerNumber.Two] == QueryButtonsType.IsPressed
-                 || QueryButtons[BuzzerNumber.Three] == QueryButtonsType.IsPressed
-                 || QueryButtons[BuzzerNumber.Four] == QueryButtonsType.IsPressed )
+                 && QueryButtons[BuzzerNumber.Two] == QueryButtonsType.IsPressed
+                 && QueryButtons[BuzzerNumber.Three] == QueryButtonsType.IsPressed
+                 && QueryButtons[BuzzerNumber.Four] == QueryButtonsType.IsPressed )
             {
                 return;
             }
@@ -480,7 +480,7 @@ namespace SJ.App.Buzzer.Helper
             Random rnd = new Random(Environment.TickCount);
             List<int> randomList = ListOrderButtons.OrderBy(item=>rnd.Next()).ToList();
 
-            //Alle Buttons aller Buzzer durchgehen
+            //Alle Buttons aller Buzzer durchgehen            
             foreach( int buttonNumber in randomList )
             {
                 //Nummer des aktuellen Buzzer bestimmen (1...4)
