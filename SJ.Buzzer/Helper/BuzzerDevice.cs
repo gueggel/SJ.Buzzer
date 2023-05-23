@@ -186,7 +186,7 @@ namespace SJ.App.Buzzer.Helper
         /// <summary>
         /// Art der Abfrage des Buzzer eines Controllers.
         /// </summary>
-        private QueryBuzzerType QueryBuzzer
+        private static QueryBuzzerType QueryBuzzer
         {
             get;
             set;
